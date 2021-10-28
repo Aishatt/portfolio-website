@@ -1,0 +1,44 @@
+/* Add all your styles here */
+body{
+  background-color:rgb(220,170,150)
+  ;
+color: white;
+}
+nav{
+display:flex;
+flex-direction: row;
+  background:rgb(208,150,200);
+ margin-bottom:20px;
+ 
+  padding:5px
+}
+.top{
+  margin-left:20px;
+}
+.left{
+  padding:2px;
+  
+}
+.container{
+  display:flex;
+}
+ a{
+  text-decoration:none;
+  
+  color: black;
+}
+.experience{
+  border-radius:20%;
+  padding:0 25px 25px 25px ;
+  background:rgb(278,200,258);
+  margin:20px;
+  flex-direction: column;
+  
+}
+.item{
+  padding:5px;
+  border-left:1px solid rgba(200,200,130,2);
+  background: black;
+  margin-bottom:5px;
+  box-shadow:0px 1px 2px 1px rgba(0,0,0,.2);
+}
